@@ -1,15 +1,25 @@
 {
   "name": "client",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "boilerplate for node express mongoose",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruv479/vue.git"
+  },
+  "keywords": [],
+  "author": "dhruv479 <dhruv479@gmail.com>",
+  "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
+    "uritemplate": "^0.3.4",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
@@ -28,5 +38,21 @@
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^1.19.1",
     "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": "^12.16.0",
+    "yarn": "^1.22.0"
   }
 }
