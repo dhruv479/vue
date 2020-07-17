@@ -2,7 +2,7 @@ import Axios from "axios";
 // import Vue from 'vue';
 
 const instance = Axios.create({
-  baseURL: `http://localhost:5300/api`,
+  baseURL: process.env.VUE_APP_API_URL,
   headers: {
     Accept: "application/json",
     Authorization: `Bearer ${localStorage.getItem("sid")}`,
